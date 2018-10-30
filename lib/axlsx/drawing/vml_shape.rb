@@ -56,7 +56,6 @@ str << <<SHAME_ON_YOU
    <x:AutoFill>False</x:AutoFill>
    <x:Row>#{row}</x:Row>
    <x:Column>#{column}</x:Column>
-   #{@visible ? '<x:Visible/>' : ''}
   </x:ClientData>
  </v:shape>
 SHAME_ON_YOU
