@@ -65,11 +65,11 @@ module Axlsx
       str << ('<comment ref="' << ref << '" authorId="' << author_index.to_s << '">')
       str << '<text>'
       unless author.to_s == ""
-        str << '<r><rPr><b/><color indexed="81"/></rPr>'
+        str << '<r><rPr><b/><color indexed="81"/><rFont val="Calibri"/></rPr>'
         str << ("<t>" << ::CGI.escapeHTML(author.to_s) << ":\n</t></r>")
       end
       str << '<r>'
-      str << '<rPr><color indexed="81"/></rPr>'
+      str << '<rPr><color indexed="81"/><rFont val="Calibri"/></rPr>'
       str << ('<t>' << ::CGI.escapeHTML(text) << '</t></r></text>')
       str << '</comment>'
     end
