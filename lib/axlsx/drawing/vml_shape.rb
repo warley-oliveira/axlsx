@@ -40,9 +40,9 @@ module Axlsx
     def to_xml_string(str ='')
 str << <<SHAME_ON_YOU
 
-<v:shape id="#{@id}" type="#_x0000_t202" fillcolor="#fff59d [80]" o:insetmode="auto"
+<v:shape id="#{@id}" type="#_x0000_t202" fillcolor="#fffbd4" o:insetmode="auto"
   style="visibility:#{'hidden'};font-size: 14px;font-family:sans-serif;opacity:0.5;">
-  <v:fill color2="#fff59d [80]"/>
+  <v:fill color2="#fffbd4"/>
   <v:shadow on="t" obscured="t"/>
   <v:path o:connecttype="none"/>
   <v:textbox style='mso-fit-text-with-word-wrap:t'>
